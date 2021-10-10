@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Demo = () => {
     return (
@@ -18,7 +19,7 @@ const Demo = () => {
             <div className='demo__box'>
                 Will hold the dif of the demo eventually 
             </div>
-            <button className='btn demo__btn'>Try it out now</button>
+            <NavLink className='btn demo__btn' to="/tracker">Try it out now</NavLink>
         </section>
     )
 }
