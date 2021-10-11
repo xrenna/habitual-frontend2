@@ -8,7 +8,7 @@ const Features = () => {
                 <svg className="features__icon">
                     <use href={sprite + '#icon-text-document'} />
                 </svg>
-                <p className='features__text'>Set weekly goals to establish new habits and improve yourself</p>
+                <p className='features__text'>Set weekly goals to establish new habits and improve yourself. You deserve it!</p>
             </div>
             <div className='features__card'>
                 <svg className="features__icon">
