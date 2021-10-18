@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import Header from '../components/Header'
 import Features from '../components/Features'
 import Demo from '../components/Demo'
+import Stories from '../components/Stories'
 
 class Home extends Component {
 
@@ -17,6 +18,7 @@ class Home extends Component {
                 <Header history={this.props.history}/>
                 <Features />
                 <Demo />
+                <Stories />
             </div>
         )
     } 
