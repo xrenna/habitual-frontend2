@@ -554,6 +554,11 @@ body {
     top: 80%;
     right: 10%; }
 
+.stories__img {
+  border-radius: 50%;
+  width: 16rem;
+  height: 16rem; }
+
 .auth-form-container {
   background-image: linear-gradient(to right bottom, rgba(88, 180, 209, 0.8), rgba(2, 48, 71, 0.8));
   height: 90vh; }
