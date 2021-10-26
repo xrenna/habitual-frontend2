@@ -1,41 +1,49 @@
 .stories {
     width: 75%;
-    margin: 10rem auto; 
+    margin: 25rem auto; 
     box-shadow: 0 3rem 6rem rgba($color-black, .1);
     background-color: rgba($color-white, .60);
     border-radius: 3px; 
     padding: 6rem; 
     padding-left: 9rem; 
     font-size: $default-font-size;
-    
+    transform: skewX(-12deg);
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
 
 
     &__shape {
         width: 15rem; 
         height: 15rem; 
-        float: left; 
-        transform: translateX(-3rem) skewX(12deg);
-        position: relative;
+        // float: left; 
+        transform: translateX(1rem) skewX(12deg);
+        // position: relative;
         overflow: hidden;
         border-radius: 50%;
+        grid-column: 4 / 5;
 
-        @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)){
-            -webkit-clip-path: circle(50% at 50% 50%);
-            clip-path: circle(50% at 50% 50%);
-            -webkit-shape-outside: circle(50% at 50% 50%);
-            shape-outside: circle(50% at 50% 50%);
-            border-radius: none;
-        }
+        // @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)){
+        //     -webkit-clip-path: circle(50% at 50% 50%);
+        //     clip-path: circle(50% at 50% 50%);
+        //     -webkit-shape-outside: circle(50% at 50% 50%);
+        //     shape-outside: circle(50% at 50% 50%);
+        //     border-radius: none;
+        // }
+        
     }
 
     &__img {
         height: 100%;
-        transform: translateX(-4rem) scale(1.4);
+        transform: translateX(-3rem) scale(1.4);
         transition: all .5s;
     }
 
     &__text {
         transform: skewX(12deg);
+        font-size: 1.4rem;
+        grid-column: 1 / 4;
     }
 
     &__caption {
