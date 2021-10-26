@@ -15,34 +15,34 @@ const Stories = () => {
                 </div>
                 <figure className='stories__shape'>
                     <img className='stories__img' src={Man1} alt='User 1' />
-                    <figcaption className='stories__caption'></figcaption>
+                    <figcaption className='stories__caption'>Winston Schmidt</figcaption>
                 </figure>
                 
 
             </div>
             <div className='stories'>
                 <div className='stories__text'>
-                <h3 className='heading-tertiary'>Completed a 5k!</h3>
+                <h3 className='heading-tertiary'>Got my Realtor's license!</h3>
                     <p>
                         Aliquam tincidunt mi ut orci commodo, nec lacinia sapien viverra. In nunc justo, scelerisque eu nulla vitae, commodo sollicitudin dolor. Pellentesque lacinia ligula nec semper lacinia. Cras sollicitudin mauris leo, vitae mollis urna lobortis pretium. Mauris malesuada metus in risus mattis pellentesque. Aenean vitae nisl at est varius sodales ut sed nisl. Sed nibh nibh, rutrum sed neque in, bibendum viverra diam.   
                     </p>
                 </div>
                 <figure className='stories__shape'>
                     <img className='stories__img' src={Woman} alt='User 2' />
-                    <figcaption className='stories__caption'></figcaption>
+                    <figcaption className='stories__caption'>Jessica Day</figcaption>
                 </figure>
                 
             </div>
             <div className='stories'>
                 <div className='stories__text'>
-                <h3 className='heading-tertiary'>Completed a 5k!</h3>
+                <h3 className='heading-tertiary'>I started a blog and I actually stuck with it!</h3>
                     <p>
                         Donec blandit tincidunt neque at imperdiet. Curabitur pellentesque lacus quam, sit amet bibendum mi vulputate in. Maecenas mollis lacus sem, ac varius sapien fermentum quis. Curabitur finibus neque non sem tempus, vel pellentesque massa sagittis. Nulla gravida maximus eros posuere malesuada. Sed ac massa non est ornare finibus in ac lacus. Suspendisse sit amet odio in enim rutrum ultrices sed laoreet ligula.
                     </p>
                 </div>
                 <figure className='stories__shape'>
                     <img className='stories__img' src={Man2} alt='User 3' />
-                    <figcaption className='stories__caption'></figcaption>
+                    <figcaption className='stories__caption'>Nick Miller</figcaption>
                 </figure>
             </div>
         </section>
