@@ -509,14 +509,16 @@ body {
   .features__icon {
     height: 6.25rem;
     width: 6.25rem;
-    fill: #126782; }
+    fill: #126782;
+    margin-bottom: -7rem; }
   .features__text {
     font-size: 1.75rem;
     color: #333;
     display: grid;
     gap: 1.5rem;
     align-items: center;
-    justify-items: center; }
+    justify-items: center;
+    padding: 3rem; }
     .features__text::before, .features__text::after {
       content: "";
       height: 1px;

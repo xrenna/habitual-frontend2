@@ -22,7 +22,8 @@
     &__icon{
         height: 6.25rem;
         width: 6.25rem;
-        fill: $color-primary-dark-2
+        fill: $color-primary-dark-2;
+        margin-bottom: -7rem;
     }
 
     &__text{
@@ -32,6 +33,7 @@
         gap: 1.5rem;
         align-items: center; 
         justify-items: center;
+        padding: 3rem; 
 
         &::before,
         &::after{
