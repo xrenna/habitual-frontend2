@@ -20,7 +20,7 @@ Watch the demo <a href="https://www.youtube.com/watch?v=tkIHtrT4py0">here</a>.
 
 ## <a id='wireframe'>Wireframe</a>
 <details>
-![Screen Shot 2021-01-10 at 5 33 43 PM](https://user-images.githubusercontent.com/61526773/104138514-2954e380-536a-11eb-8778-7de4a250e34d.png)
+<img src='https://user-images.githubusercontent.com/61526773/104138514-2954e380-536a-11eb-8778-7de4a250e34d.png' />
 </details>
 ## <a id="starting">Getting Started</a>
 
