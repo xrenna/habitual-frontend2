@@ -19,9 +19,15 @@ Habitual is SPA that allows users to create goals and habits associated with the
 Watch the demo <a href="https://www.youtube.com/watch?v=tkIHtrT4py0">here</a>.
 
 ## <a id='wireframe'>Wireframe</a>
-<details>
+
 <img src='https://user-images.githubusercontent.com/61526773/104138514-2954e380-536a-11eb-8778-7de4a250e34d.png' />
+<details>
+<img src='https://user-images.githubusercontent.com/61526773/104138704-81d8b080-536b-11eb-9966-e707922966b3.png'>
+<img src='https://user-images.githubusercontent.com/61526773/104138748-c9f7d300-536b-11eb-999e-9730b90a8f98.png'>
+<img src='https://user-images.githubusercontent.com/61526773/104138704-81d8b080-536b-11eb-9966-e707922966b3.png'>
+<img src='https://user-images.githubusercontent.com/61526773/104138771-f0b60980-536b-11eb-83c8-3d6911d3f20e.png'>
 </details>
+
 ## <a id="starting">Getting Started</a>
 
 Make sure you have the following tools installed on your system:
