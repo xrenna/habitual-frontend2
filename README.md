@@ -5,6 +5,7 @@
 ## Overview
 
 - [About The Project](#about)
+- [Wirefram](#wireframe)
 - [Getting Started](#starting)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
