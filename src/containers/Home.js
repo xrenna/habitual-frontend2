@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Features from '../components/Features'
 import Demo from '../components/Demo'
 import Stories from '../components/Stories'
+import Footer from '../components/Footer'
 
 class Home extends Component {
 
@@ -19,6 +20,7 @@ class Home extends Component {
                 <Features />
                 <Demo />
                 <Stories />
+                <Footer />
             </div>
         )
     } 
