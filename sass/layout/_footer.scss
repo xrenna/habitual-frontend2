@@ -1,0 +1,10 @@
+.footer {
+
+    background-color: $color-gray-light-1;
+    margin-top: 10rem;
+    height: 50vh;
+    &__logo{
+        height: 2.25rem; 
+        width: 2.25rem;
+    }
+}
