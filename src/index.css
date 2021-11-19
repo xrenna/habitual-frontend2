@@ -531,11 +531,11 @@ body {
 
 .footer {
   background-color: #f7f7f7;
-  margin-top: 10rem;
+  margin-top: 30rem;
   height: 50vh; }
   .footer__logo {
-    height: 2.25rem;
-    width: 2.25rem; }
+    height: 10.25rem;
+    width: 10.25rem; }
 
 .habits-container {
   flex: 1;
