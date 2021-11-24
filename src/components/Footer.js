@@ -9,18 +9,18 @@ const Footer = () => {
             <img src={ Logo } className='footer__logo' />
         </div>
         <div className='footer__links'>
-            <svg className="icon icon--edit">
+            <svg className="icon icon--footer">
                 <use href={sprite + '#icon-linkedin'} />
             </svg>
-            <svg className="icon icon--edit">
+            <svg className="icon icon--footer">
                 <use href={sprite + '#icon-github'} />
             </svg>
-            <svg className="icon icon--edit">
+            <svg className="icon icon--footer">
                 <use href={sprite + '#icon-mail'} />
             </svg>
         </div>
         <div>
-            <p>&copy; Jordan T. Romero 2021</p>
+            <p className='footer__text'>&copy; Jordan T. Romero 2021</p>
         </div>
         </section>
     )
