@@ -9,15 +9,21 @@ const Footer = () => {
             <img src={ Logo } className='footer__logo' />
         </div>
         <div className='footer__links'>
-            <svg className="icon icon--footer">
-                <use href={sprite + '#icon-linkedin'} />
-            </svg>
-            <svg className="icon icon--footer">
-                <use href={sprite + '#icon-github'} />
-            </svg>
-            <svg className="icon icon--footer">
-                <use href={sprite + '#icon-mail'} />
-            </svg>
+            <a href='https://www.linkedin.com/in/jordan-t-romero/'>
+                <svg className="icon icon--footer">
+                    <use href={sprite + '#icon-linkedin'} />
+                </svg>
+            </a>
+            <a href='https://github.com/jordles113'>
+                <svg className="icon icon--footer">
+                    <use href={sprite + '#icon-github'} />
+                </svg>
+            </a>
+            <a href='mailto: jordanromero1390@gmail.com'>
+                <svg className="icon icon--footer">
+                    <use href={sprite + '#icon-mail'} />
+                </svg>
+            </a>
         </div>
         <div>
             <p className='footer__text'>&copy; Jordan T. Romero 2021</p>
