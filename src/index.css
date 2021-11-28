@@ -536,7 +536,10 @@ body {
 .footer {
   background-color: #f7f7f7;
   margin-top: 30rem;
-  height: 50vh; }
+  height: 50vh;
+  display: grid;
+  justify-items: center;
+  align-items: center; }
   .footer__logo {
     height: 10.25rem;
     width: 10.25rem; }
