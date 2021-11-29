@@ -543,6 +543,9 @@ body {
   .footer__logo {
     height: 10.25rem;
     width: 10.25rem; }
+  .footer__links {
+    display: grid;
+    grid-template-columns: repeat(3, 23.333vw); }
 
 .habits-container {
   flex: 1;

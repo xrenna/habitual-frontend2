@@ -12,4 +12,9 @@
         height: 10.25rem; 
         width: 10.25rem;
     }
+
+    &__links {
+        display: grid;
+        grid-template-columns: repeat(3, 23.333vw);
+    }
 }
