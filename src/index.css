@@ -546,6 +546,9 @@ body {
   .footer__links {
     display: grid;
     grid-template-columns: repeat(3, 23.333vw); }
+  .footer__text {
+    font-size: 1.5rem;
+    color: #126782; }
 
 .habits-container {
   flex: 1;
