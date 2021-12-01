@@ -459,7 +459,8 @@ body {
   grid-template-rows: repeat(7, 6vw);
   gap: 1.5rem;
   justify-items: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 25rem; }
   .demo__header {
     grid-column: 1 / span 2; }
   .demo__description {
