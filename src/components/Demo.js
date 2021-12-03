@@ -17,7 +17,7 @@ const Demo = () => {
                 </p>
             </div>
             <div className='demo__box'>
-                Will hold the dif of the demo eventually 
+                <iframe src="https://giphy.com/embed/92xpoIc5gFByR8ujtJ" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/92xpoIc5gFByR8ujtJ">via GIPHY</a></p>
             </div>
             <NavLink className='btn demo__btn' to="/tracker">Try it out now</NavLink>
         </section>
